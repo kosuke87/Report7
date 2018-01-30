@@ -3,8 +3,8 @@ void BubbleSort(int Scores[],int Size);
 
 
 int main() {
-    const int SIZE=5;
-    int Scores[SIZE]={0,60,70,100,90};
+    const int SIZE=6;
+    int Scores[SIZE]={100,60,70,100,90,80};
 
 
     BubbleSort(Scores,SIZE);
